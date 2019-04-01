@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Lucky Numbers {% endblock %}
+
+{% block stylesheets %}
+<style>
+    .maclass{
+        color: red;
+        font-weight: bold;
+    }
+</style>
+{% endblock %}
+
+{% block body %}
+    <h1 class="maclass"> Lucky numbers : {{  numbers }} </h1>
+
+    <p> <a href="{{ myurl }}"> Lucky number </a> </p>
+
+    <p> <a href="{{ path('homepage') }}">  Home </a> </p>
+
+    <p> {{ mypath }} </p>
+{% endblock %}
+
+{% block javascripts %}
+<script>
+    document.write("Ceci un text javascript");
+</script>
+{% endblock %}
