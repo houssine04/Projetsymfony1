@@ -151,7 +151,6 @@ class AdvertController extends Controller
 
         $em->remove($advert);
         $em->flush();
-
         $this->addFlash('notice', 'Annonce bien supprim�e.');
         return $this->redirectToRoute('oc_platform_home');
     }
