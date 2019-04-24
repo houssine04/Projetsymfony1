@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="taches">
+  <component name="PublishConfigData" serverName="localhost">
     <serverData>
-      <paths name="taches">
+      <paths name="localhost">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="Projetsymfony1/web/app_dev.php" />
+            <mapping local="$PROJECT_DIR$" web="Projetsymfony1" />
           </mappings>
         </serverdata>
       </paths>
